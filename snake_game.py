@@ -2,7 +2,6 @@ import pygame
 import random
 import sys
 import math
-
 # Khởi tạo pygame
 pygame.init()
 
@@ -108,7 +107,6 @@ class Game:
             WINDOW_WIDTH // 2 - 75, WINDOW_HEIGHT // 2 + 50, 150, 50,
             "Restart", BUTTON_COLOR, BUTTON_HOVER_COLOR, TEXT_COLOR, self.font
         )
-
     def reset_game(self):
         self.snake = Snake()
         self.food = Food(self.snake)
